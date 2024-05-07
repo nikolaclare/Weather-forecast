@@ -36,6 +36,25 @@ header {
   margin-left: 5px;
 }
 
+.weather-app-data {
+  display:flex;
+  justify-content: space-between;
+}
+
+.forecast-days {
+  display: flex;
+  justify-content: space-between;
+}
+
+.forecast-icons {
+  display: flex;
+  justify-content: space-between;
+}
+.forecast-min-max-temperature {
+  display: flex;
+  justify-content: space-between;
+}
+
 footer {
   border-top: 1px solid #f9f7fe;
   padding: 30px 0 0 0;
