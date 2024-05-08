@@ -98,14 +98,19 @@ main {
   justify-content: space-around;
   font-size: 28px;
 }
-.forecast-min-max-temperature {
+.forecast-max-min-temperature {
   display: flex;
   justify-content: space-around;
   padding: 15px 0 15px 0;
 }
 
-.forecast-min-max-temperature {
+.forecast-max-temperature {
   color: #f65282;
+  font-weight: bold;
+}
+
+.forecast-min-temperature {
+  opacity: 0.4;
 }
 
 footer {
